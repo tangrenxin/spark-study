@@ -9,7 +9,7 @@ import org.apache.spark.{SparkConf, SparkContext}
  * @Author: tangrenxin
  * @Date: 2021/3/7 23:38
  */
-object Spark02_RDD_Operator_Transform {
+object Spark02_RDD_Operator_Transform_MapPartitions {
 
   def main(args: Array[String]): Unit = {
     val sparkConf = new SparkConf().setMaster("local[*]").setAppName("Operator")
